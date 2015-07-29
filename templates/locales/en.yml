@@ -337,12 +337,7 @@ en:
 
         %{output}
       not_in_installer: |-
-        You appear to be running Vagrant outside of the official installers.
-        Note that the installers are what ensure that Vagrant has all required
-        dependencies, and Vagrant assumes that these dependencies exist. By
-        running outside of the installer environment, Vagrant may not function
-        properly. To remove this warning, install Vagrant using one of the
-        official packages from vagrantup.com.
+        You are not running the official Vagrant, which you obviously know.
       upgraded_v1_dotfile: |-
         A Vagrant 1.0.x state file was found for this environment. Vagrant has
         gone ahead and auto-upgraded this to the latest format. Everything
